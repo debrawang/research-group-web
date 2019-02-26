@@ -6,7 +6,7 @@ icon: star-o
 
 2019年2月月22日13:00--17:00朱小杰老师和沈志宏老师分享关于“大数据流水线系统piflow0.5”、“融合型图数据管理引擎PiDB0.1”两方面的技术知识。
 
-#大数据流水线系统piflow0.5
+##![](https://github.com/cas-bigdatalab/piflow/blob/master/doc/piflow.png) 是一个简单易用，功能强大的大数据流水线系统，即大数据ETL工具
 ## Table of Contents
 
 - [Features](#features)
