@@ -41,7 +41,7 @@ icon: star-o
 
 ## 使用
 
-Build工程:
+第一步：Build工程
 `git clone https://github.com/cas-bigdatalab/piflow.git`
 `mvn clean package -Dmaven.test.skip=true`
 
@@ -62,7 +62,7 @@ Build工程:
           [INFO] Final Memory: 41M/812M
           [INFO] ------------------------------------------------------------------------
 
-运行Piflow Server：
+第二步：运行Piflow Server
 - 配置文件config.properties
 
       #server ip and port
@@ -96,10 +96,10 @@ Build工程:
   - edit config.properties
   - run start.sh
 
-运行Piflow Web：
+第三步：运行Piflow Web
   - todo
 
-使用方式：
+第四步：使用
 
 - 命令行
   - flow config example
