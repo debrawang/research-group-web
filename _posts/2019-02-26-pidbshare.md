@@ -42,3 +42,6 @@ pidb是围绕图数据技术和人工智能技术的数据综合管理工具，�
 - 总体结构：把系统分为数据融合管理和信息抽取两个部分
   - 数据融合管理： 基于图数据库Neo4J，提供数据的存储管理、查询检索
   - 信息抽取：从非结构化数据中提取语义信息，供检索查询使用
+  
+## 框架设计
+![](https://github.com/cas-bigdatalab/research-group-web/blob/master/img/pidb_architecture.png)
