@@ -7,42 +7,42 @@ icon: star-o
 2019年2月月22日13:00--17:00朱小杰老师和沈志宏老师分享关于“大数据流水线系统piflow0.5”、“融合型图数据管理引擎PiDB0.1”两方面的技术知识。
 
 ![](https://github.com/cas-bigdatalab/piflow/blob/master/doc/piflow.png) 是一个简单易用，功能强大的大数据流水线系统，即大数据ETL工具
-## Table of Contents
+## 介绍内容
 
-- [Features](#features)
-- [Architecture](#architecture)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [Getting Help](#getting-help)
-- [Documentation](#documentation)
+- [Features](#特性)
+- [Architecture](#架构)
+- [Requirements](#环境要求)
+- [Getting Started](#使用)
 
-## Features
 
-- Easy to use
-  - provide a WYSIWYG web interface to configure data flow
-  - monitor big data flow status
-  - check big data flow logs
-  - provide checkpoint
-- Strong Scalability:
-  - Support for custom development data processing components
-- Superior performance
-  - based on distributed computing engine Spark
-- Powerful
-  - 100+ data processing components available
-  - include spark、mllib、hadoop、hive、hbase、solr、redis、memcache、elasticSearch、jdbc、mongodb、http、ftp、xml、csv、json，etc.
+## 特性
 
-## Architecture
+- 简单易用
+  - 提供所见即所得页面配置流水线
+  - 监控流水线状态
+  - 查看流水线日志
+  - 检查点功能
+- 可扩展性
+  - 支持用户自定义开发组件
+- 性能优越
+  - 基于分布式计算引擎Spark开发
+- 功能强大
+  - 提供100+数据处理组件
+  - 包括 spark、mllib、hadoop、hive、hbase、solr、redis、memcache、elasticSearch、jdbc、mongodb、http、ftp、xml、csv、json等.
+
+## 架构
 ![](https://github.com/cas-bigdatalab/piflow/blob/master/doc/architecture.png)
-## Requirements
+## 环境要求
 * JDK 1.8 or newer
 * Apache Maven 3.1.0 or newer
 * Git Client (used during build process by 'bower' plugin)
 * spark-2.1.0
 * hadoop-2.6.0
 
-## Getting Started
+## 使用
 
-To Build:
+Build工程:
+`git clone https://github.com/cas-bigdatalab/piflow.git`
 `mvn clean package -Dmaven.test.skip=true`
 
           [INFO] Replacing original artifact with shaded artifact.
@@ -62,7 +62,7 @@ To Build:
           [INFO] Final Memory: 41M/812M
           [INFO] ------------------------------------------------------------------------
 
-To Run Piflow Server：
+运行Piflow Server：
 - configure config.properties
 
       #server ip and port
@@ -96,12 +96,12 @@ To Run Piflow Server：
   - edit config.properties
   - run start.sh
 
-To Run Piflow Web：
+运行Piflow Web：
   - todo
 
-To Use：
+使用方式：
 
-- command line
+- 命令行
   - flow config example
 
 
@@ -231,5 +231,5 @@ To Use：
       }
     }
   - curl -0 -X POST http://10.0.86.191:8002/flow/start -H "Content-type: application/json" -d 'this is your flow json'
-- piflow web
+- 界面piflow web
   ![](https://github.com/cas-bigdatalab/piflow/blob/master/doc/piflow_web.png)
