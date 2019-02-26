@@ -12,7 +12,7 @@ pidb是围绕图数据技术和人工智能技术的数据综合管理工具，�
 - [解决方案](#解决方案)
 - [框架设计](#框架设计)
 - [实现效果](#实现效果)
-- [存在问题](#存在问题)
+- [下一步计划](#下一步计划)
 
 ## 问题背景
 
@@ -45,3 +45,34 @@ pidb是围绕图数据技术和人工智能技术的数据综合管理工具，�
   
 ## 框架设计
 ![](https://github.com/cas-bigdatalab/research-group-web/blob/master/img/pidb_architecture.png)
+
+## 实现效果
+create (zhai:Person {name: '翟天临', age:38, photo: Blob.fromURL('http://s12.sinaimg.cn/mw690/005AE7Quzy7rL8kA4Nt6b&690'), pet: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550774432673&di=d624e593ae6da13442a3f1dcff874b86&imgtype=0&src=http%3A%2F%2Ft7.baidu.com%2Fit%2Fu%3D376404753%2C1656708515%26fm%3D191%26app%3D48%26wm%3D1%2C13%2C90%2C45%2C0%2C7%26wmo%3D10%2C10%26n%3D0%26g%3D0n%26f%3DJPEG%3Fsec%3D1853310920%26t%3D233e69181e084e53e12c9c52943e85d7'), car: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550774659962&di=9b91a5eb8952aa965e66659e3669f191&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FrVge2NNqB6kKkTI65LNwiXoDG1mmOiBb3fR3C0CwepM8p1539733312296.jpg')}) create (sonIsComing:Show {name: '儿子来了', year:2019, photo: Blob.fromURL('http://s15.sinaimg.cn/mw690/005AE7Quzy7rL8j2jlIee&690')}) create (e:Event {name: '博士论文作假', actorName:'翟天临', actorPhoto: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550775439865&di=0c07dfdefbcfbe6a1d0ba18e3634d298&imgtype=0&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2F5fef7010e532b8757c51071e927b6477.jpeg')})
+
+create (zhai:Person {name: '翟天临', age:38, photo: Blob.fromURL('http://s12.sinaimg.cn/mw690/005AE7Quzy7rL8kA4Nt6b&690'), pet: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550774432673&di=d624e593ae6da13442a3f1dcff874b86&imgtype=0&src=http%3A%2F%2Ft7.baidu.com%2Fit%2Fu%3D376404753%2C1656708515%26fm%3D191%26app%3D48%26wm%3D1%2C13%2C90%2C45%2C0%2C7%26wmo%3D10%2C10%26n%3D0%26g%3D0n%26f%3DJPEG%3Fsec%3D1853310920%26t%3D233e69181e084e53e12c9c52943e85d7'), car: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550774659962&di=9b91a5eb8952aa965e66659e3669f191&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FrVge2NNqB6kKkTI65LNwiXoDG1mmOiBb3fR3C0CwepM8p1539733312296.jpg')}) create (sonIsComing:Show {name: '儿子来了', year:2019, photo: Blob.fromURL('http://s15.sinaimg.cn/mw690/005AE7Quzy7rL8j2jlIee&690')}) create (e:Event {name: '博士论文作假', actorName:'翟天临', actorPhoto: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550775439865&di=0c07dfdefbcfbe6a1d0ba18e3634d298&imgtype=0&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2F5fef7010e532b8757c51071e927b6477.jpeg')})
+
+create (zhai:Person {name: '翟天临', age:38, photo: Blob.fromURL('http://s12.sinaimg.cn/mw690/005AE7Quzy7rL8kA4Nt6b&690'), pet: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550774432673&di=d624e593ae6da13442a3f1dcff874b86&imgtype=0&src=http%3A%2F%2Ft7.baidu.com%2Fit%2Fu%3D376404753%2C1656708515%26fm%3D191%26app%3D48%26wm%3D1%2C13%2C90%2C45%2C0%2C7%26wmo%3D10%2C10%26n%3D0%26g%3D0n%26f%3DJPEG%3Fsec%3D1853310920%26t%3D233e69181e084e53e12c9c52943e85d7'), car: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550774659962&di=9b91a5eb8952aa965e66659e3669f191&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FrVge2NNqB6kKkTI65LNwiXoDG1mmOiBb3fR3C0CwepM8p1539733312296.jpg')}) create (sonIsComing:Show {name: '儿子来了', year:2019, photo: Blob.fromURL('http://s15.sinaimg.cn/mw690/005AE7Quzy7rL8j2jlIee&690')}) create (e:Event {name: '博士论文作假', actorName:'翟天临', actorPhoto: Blob.fromURL('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550775439865&di=0c07dfdefbcfbe6a1d0ba18e3634d298&imgtype=0&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2F5fef7010e532b8757c51071e927b6477.jpeg')})
+
+match (n) return n
+
+match (n:Person {name:'翟天临'}) return n.pet->animal,n.car->plateNumber
+
+match (n:Person {name:'翟天临'}), (s:Show {name:'儿子来了'}) return n.photo <: s.photo
+
+match (p:Person),(e:Event) return p.photo ~: e.actorPhoto
+
+match (p:Person),(e:Event) where p.photo ~: e.actorPhoto create (p)-[:ActIn]->(e)
+
+match (n) return n
+
+## 下一步计划
+
+- 100亿实体，10000亿非结构化数据对象管理
+  - 数据分片
+  - 批量写加速
+
+- AI算法库扩展
+- AI算法缓存优化
+- 多级属性
+  - 非结构化数据的信息提取永无止境
+
