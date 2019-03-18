@@ -29,6 +29,25 @@ notitle: true
     {% endif %}
 </section>
 
+
+<section>
+    <h2>论文分享</h2>
+    <ul class="news list-unstyled">
+        {% assign papers_by_date = site.papers | sort: 'last-updated', 'first' %}
+        {% assign papers_by_date = papers_by_date | reverse %}
+        {% for post in papers_by_date limit: site.front_page_pres %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.papers | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/paper.html">Older presentations&hellip;</a>
+        </p>
+    {% endif %}
+</section>
+
 <section>
     <h2>科研项目</h2>
     <div class="card-columns">

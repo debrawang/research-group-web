@@ -1,0 +1,12 @@
+---
+layout: default
+title: 论文分享
+---
+
+<ul class="news list-unstyled">
+{% assign papers_by_date = site.papers | sort: 'last-updated', 'first' %}
+{% assign papers_by_date = papers_by_date | reverse %}
+{% for post in papers_by_date %}
+    {% include news-item.html item=post %}
+{% endfor %}
+</ul>
