@@ -3,7 +3,9 @@ layout: post
 title: 喜讯！PiFlow大数据流水线获“GVP-码云最有价值开源项目”奖
 icon: star-o
 ---
+
 日前，由中科院计算机网络信息中心大数据部团队研发并开源的“PiFlow大数据流水线系统”（https://gitee.com/opensci/piflow） 荣获2019年开源中国“GVP-码云最有价值开源项目”奖 。
+
 <div align="center">
   <img src="/img/piflow-gvp.png"  height="500" width="900">
 </div>
