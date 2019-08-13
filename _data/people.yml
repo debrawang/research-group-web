@@ -68,17 +68,10 @@
     role: doctor_student
     bio: 2017级博士研究生(在职)
 
-
-蒲军:
-    display_name: "蒲军"
-    role: master student
-    bio: 2016级硕士研究生
-
-陈天乐:
-    display_name: "陈天乐"
-    role: master student
-    bio: 2016级硕士研究生
-
+Fayaz Ali:
+    display_name: "Fayaz Ali"
+    role: doctor_student
+    bio: 2018级博士研究生
 
 赵子豪:
     display_name: "赵子豪"
@@ -95,7 +88,22 @@
     role: master_student
     bio: 2018级硕士研究生
 
+翟擎臣:
+    display_name: "翟擎臣"
+    role: master_student
+    bio: 2018级硕士研究生
+
+宁致远:
+    display_name: "宁致远"
+    role: master_student
+    bio: 2018级硕士研究生
+
+
 #访问、实习学生
+Farah Deeba Memon:
+    display_name: "Farah Deeba Memon"
+    role: visiting_student
+    bio: 2019年暑期访问
 
 
 #TODO
@@ -108,7 +116,16 @@
 王鹏飞:
     display_name: "王鹏飞"
     role: alum
-    bio: "2019届博士研究生" 
+    bio: "2019届博士研究生，就职于阿里巴巴达摩院" 
+蒲军:
+    display_name: "蒲军"
+    role: alum
+    bio: 2016级硕士研究生,就职于深圳住建局
+
+陈天乐:
+    display_name: "陈天乐"
+    role: alum
+    bio: 2016级硕士研究生,就职于工行北京
 
 #特聘专家
 熊辉:
