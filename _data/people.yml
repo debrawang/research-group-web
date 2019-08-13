@@ -48,14 +48,6 @@
     role: faculty
     bio: staff
 
-肖濛:
-    display_name: "肖濛"
-    webpage: "https://cv.sha0w.pub"
-    role: faculty
-    bio: Rookie
-    image: /img/people/sha0w.jpg
-    github: coco11563
-
 
 #学生
 吴章生:
@@ -72,6 +64,14 @@ Fayaz Ali:
     display_name: "Fayaz Ali"
     role: doctor_student
     bio: 2018级博士研究生
+
+肖濛:
+    display_name: "肖濛"
+    webpage: "https://cv.sha0w.pub"
+    role: doctor_student
+    bio: 2019级博士研究生,Rookie
+    image: /img/people/sha0w.jpg
+    github: coco11563
 
 赵子豪:
     display_name: "赵子豪"
