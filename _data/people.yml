@@ -4,12 +4,12 @@
     display_name: "周园春"
     webpage: "http://www.escience.cn/people/zyc/index.html"
     image: /img/people/zyc.JPG
-    role: faculty
+    role: faculty_leader
     bio: 研究员，中科院网络信息中心主任助理，大数据部主任。研究方向为大数据与数据挖掘
 
 沈志宏:
     display_name: "沈志宏"
-    role: faculty
+    role: faculty_leader
     bio: 研究员，大数据部副主任。研究方向为大数据处理与分析技术
     webpage: "https://bluejoe2008.github.io"
     image: /img/people/shenzhihong.jpg
@@ -20,7 +20,7 @@
     image: /img/people/yidu.png
     github: yiducn
     role: faculty
-    bio: 副研究员。研究兴趣为大规模时空数据可视分析、图数据挖掘（知识图谱）、人机交互技术
+    bio: 副研究员,大数据知识工程实验室主任。研究兴趣为大规模时空数据可视分析、图数据挖掘（知识图谱）、人机交互技术
 
 崔文娟:
     display_name: "崔文娟"
@@ -135,11 +135,11 @@ Farah Deeba Memon:
     webpage: "http://datamining.rutgers.edu/"
     image: /img/people/huixiong.png
 
-李飞飞:
-    display_name: "李飞飞"
-    role: special_faculty
-    bio: "ACM Distinguished Scientist，达摩院数据库首席科学家，中科院网络信息中心特聘专家"
-    image: /img/people/feifeili.png
+#李飞飞:
+#    display_name: "李飞飞"
+#    role: special_faculty
+#    bio: "ACM Distinguished Scientist，达摩院数据库首席科学家，中科院网络信息中心特聘专家"
+#    image: /img/people/feifeili.png
 
 祝恒书:
     display_name: "祝恒书"

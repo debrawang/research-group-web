@@ -12,6 +12,8 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Sections on the "people" page.
 roles:
+  - key: faculty_leader
+    name: 团队领导
   - key: faculty
     name: 研究人员
   - key: staff
