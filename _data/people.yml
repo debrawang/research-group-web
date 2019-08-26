@@ -47,8 +47,14 @@
     image: /img/people/wanghj.jpg
     role: faculty
     bio: staff
-
-
+    
+王露笛:
+    display_name: "王露笛"
+    webpage: 
+    image: /img/people/wangld.jpg
+    role: faculty
+    bio: staff
+       
 #学生
 吴章生:
     display_name: "吴章生"
